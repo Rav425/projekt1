@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900|Orbitron:500,700|Ubuntu:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo|El+Messiri|Markazi+Text&display=swap');
+
+.cairo {
+    font-family: Cairo !important;
+}
+.select2-results, .swal2-title, .btn, .swal2-html-container {
+  font-family: 'Cairo' !important;
+}
+.old_imgstyle {
+    background-color: #202e46;
+    border: 1px dashed #269ff7;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.old_imgstyle label {
+    float: right;
+    line-height: 119px;
+    font-weight: bold;
+}
+.old_imgstyle img {
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.custom_Loader {
+	display:none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #000000eb;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../media/page-load-loader.gif);
+    background-size: 100px;
+}
+.block-loader, .notify-loader, .edituser-loader {
+	display:none;
+    width: 95%;
+    height: 95%;
+    background: #151521eb;
+    position: absolute;
+    z-index: 99;
+    margin: 12px;
+    border-radius: 10px;
+    background-image: url(../media/page-load-loader.gif);
+    background-size: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.edituser-loader {
+    width: 98%;
+}
+#drugs_table tr td {
+    padding: 5px;
+    vertical-align: middle;
+    border-left: 1px dashed #323248;
+}
+#pharmas_table tr td {
+    vertical-align: middle;
+}
