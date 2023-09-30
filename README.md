@@ -6,6 +6,7 @@ Die Webanwendung ist in zwei Sichten (Anwender und Administrator) aufgebaut:
 ### Benutzeransicht
 
 Die Benutzer können die Unterkünfte anschauen und Buchungen durchführen und sich dabei registrieren.
+Je nach Ihrer Rolle können Benutzer Zimmer hinzufügen.
 
 ### Administrator-Ansicht
 
